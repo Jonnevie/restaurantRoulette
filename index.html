@@ -29,31 +29,34 @@
           <div class="inputs">
             <div class="inputgroup"></div>
             <label for="type">Restaurant Type</label>
-            <input id="restaurantType" placeholder="Main Meals" type="text" />
+            <input id="restaurantType" placeholder="e.g. Ramen" type="text" />
             <label>Location</label>
-            <input id="locationInput" placeholder="e.g. Use My Location" type="text" />
+            <input id="locationInput" placeholder="e.g. Melbourne" type="text" />
             <div class="button">
               <button id="shoot">SHOOT</button>
             </div>
           </div>
         </div>
       </div>
-      <div class="cards">
+      <div id="cardWrapper" class="cardwrapper">
+
+     
+      <div id="cards" class="cards">
         <div class="card1">
           <img id="img1" src="./image1.avif" alt="" />
           <div class="textwrapper">
             <div class="titleText">
-              <p id="name1" class="name">Bob's Grill</p>
-              <p id="dist1" class="dist">3.2km</p>
+              <p id="name1" class="name"></p>
+              <p id="dist1" class="dist"></p>
             </div>
             <div class="paraText">
-              <p id="paraText1">Address Line 1</p>
-              <p id="address2-1">Address Line 2</p>
-              <p id="address3-1">Address Line 3</Address></p>
-              <p id="addressCityState-1"> City, State</p>
-              <p id="addressCountry-1"> Country</p> 
+              <p id="paraText1"></p>
+              <p id="address2-1"></p>
+              <p id="address3-1"></Address></p>
+              <p id="addressCityState-1"> </p>
+              <p id="addressCountry-1"> </p> 
               <br>
-              <p id="phone1">Phone Number</p>
+              <p id="phone1"></p>
             </div>
           </div>
           <div class="btndiv">
@@ -61,11 +64,11 @@
           </div>
         </div>
         <div class="card2">
-          <img src="./image2.avif" alt="" />
+          <img id="img2" src="./image2.avif" alt="" />
           <div class="textwrapper">
             <div class="titleText">
-              <p id="name2" class="name">Bob's Grill</p>
-              <p class="dist">3.2km</p>
+              <p id="name2" class="name"></p>
+              <p id="dist2" class="dist"></p>
             </div>
             <div class="paraText">
               <p id="paraText2"></p>
@@ -73,6 +76,8 @@
               <p id="address3-2"></p>
               <p id="addressCityState-2"></p>
               <p id="addressCountry-2"></p>
+              <br>
+              <p id="phone2"></p>
             </div>
           </div>
           <div class="btndiv">
@@ -80,23 +85,28 @@
           </div>
         </div>
         <div class="card3">
-          <img src="./image3.avif" alt="" />
+          <img id="img3" src="./image3.avif" alt="" />
           <div class="textwrapper">
             <div class="titleText">
-              <p id="name3" class="name">Bob's Grill</p>
-              <p class="dist">3.2km</p>
+              <p id="name3" class="name"></p>
+              <p id="dist3" class="dist"></p>
             </div>
-            <p class="paraText">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-              libero illo aliquam incidunt perspiciatis iusto voluptas voluptate
-              et molestias cupiditate?
-            </p>
+            <div class="paraText">
+                <p id="paraText3"></p>
+                <p id="address2-3"></p>
+                <p id="address3-3"></p>
+                <p id="addressCityState-3"></p>
+                <p id="addressCountry-3"></p>
+                <br>
+                <p id="phone3"></p>
+              </div>
           </div>
           <div class="btndiv">
             <a href="/" class="directions" id="directions3"><button  >DIRECTIONS</button></a>
           </div>
         </div>
       </div>
+    </div>
     </div>
     <script src="./script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>

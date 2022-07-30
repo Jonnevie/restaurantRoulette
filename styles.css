@@ -103,6 +103,14 @@ input {
   border-radius: 29px;
 }
 
+#cardWrapper {
+  display: none;
+}
+
+.active {
+  display: contents !important;
+}
+
 .cards {
   display: grid;
   grid-template-areas: "card1 card2 card3";
