@@ -7,7 +7,7 @@ let requestOptions = {
   redirect: "follow",
 };
 let fetchedRestaurant = [];
-console.log(fetchedRestaurant);
+
 let randomIndex = 0;
 
 //getting input values
@@ -156,4 +156,7 @@ const printRestaurant = () => {
     phone3.innerHTML = restaurant.phone;
     directions3.href = restaurant.url;
   });
+  fetchedRestaurant = [];
 };
+
+console.log(fetchedRestaurant);
